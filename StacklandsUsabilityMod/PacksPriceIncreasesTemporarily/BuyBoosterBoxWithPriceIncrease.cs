@@ -53,7 +53,7 @@ namespace StacklandsUsabilityMod.PacksPriceIncreasesTemporarily
 			{
 				base.gameObject.name = this.Booster.Name;
 				this.BuyText.text = string.Format("{0}{1}", this.AdjustedCost, Icons.Gold);
-				this.NameText.text = this.Booster.Name + " Extended";
+				this.NameText.text = this.Booster.Name;
 			}
 			else
 			{

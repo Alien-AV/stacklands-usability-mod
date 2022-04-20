@@ -14,7 +14,7 @@ namespace Doorstop
             SceneManager.sceneLoaded += SceneLoaded;
             new Thread(() =>
             {
-                Harmony.DEBUG = true;
+                //Harmony.DEBUG = true;
                 var harmony = new Harmony("net.alienav.StacklandsUsabilityMod");
                 harmony.PatchAll();
             }).Start();
